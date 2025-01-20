@@ -1,0 +1,33 @@
+.card {
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-img-top {
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .btn-outline-danger {
+    border-radius: 20px;
+  }
+  
+  h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #ff4b5c;
+  }
+.marge{
+    margin-bottom: 50px;
+}

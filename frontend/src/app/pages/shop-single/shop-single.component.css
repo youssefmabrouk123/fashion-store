@@ -1,0 +1,11 @@
+.btn-size {
+    cursor: pointer;
+    border: 1px solid #28a745;
+    margin-right: 5px;
+  }
+  
+  .btn-size.active {
+    background-color: #28a745;
+    color: white;
+  }
+  
